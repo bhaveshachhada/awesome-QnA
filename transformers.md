@@ -20,7 +20,7 @@ Yes, the weight matrices for the Key, Query, and Value vectors are **learnable p
 ---
 
 ## 4. **If embedding dimension is 512 and Key/Query/Value dimension is 64, do we use neural networks for the transformation?**
-Yes, it's essentially a linear layer. If the embedding dimension is 512 and the desired dimension for the Key/Query/Value is 64, we apply three **linear projections** (neural networks without activation functions) that map the 512-dimensional embeddings to 64-dimensional query, key, and value vectors.
+Yes, it's essentially a linear layer. If the embedding dimension is 512 and the desired dimension for the Key/Query/Value is 64, we apply three **linear projections** (neural networks without activation functions) that map the 512-dimensional embeddings to 64-dimensional query, key, and value vectors. <sup>[7]</sup>
 
 ---
 
@@ -30,7 +30,7 @@ Multiple heads in **multi-head attention** allow the model to capture **differen
 ---
 
 ## 6. **If multiple heads capture different information, why don’t they end up learning the same thing during training?**
-This is an interesting question! While multiple heads could theoretically converge to the same result, in practice they don’t due to **random initialization** and **regularization effects** during training. Moreover, having multiple heads with independent weight matrices encourages the model to explore **different attention patterns**, even though they’re trained on the same data. <sup>[8]</sup>
+This is an interesting question! While multiple heads could theoretically converge to the same result, in practice they don’t due to **random initialization** and **regularization effects** during training. Moreover, having multiple heads with independent weight matrices encourages the model to explore **different attention patterns**, even though they’re trained on the same data. <sup>[9]</sup>
 
 ---
 
@@ -86,5 +86,6 @@ by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-uns
 4. [Answer](https://ai.stackexchange.com/q/20075/51861) on stack-exchange
 5. [Answer](https://stats.stackexchange.com/a/463320/333903) on stack-exchange
 6. [Answer](https://stats.stackexchange.com/a/626483/333903) on stack-exchange
-7. TBD
-8. [Answer](https://ai.stackexchange.com/a/25149/51861) on stack-exchange
+7. ["Annotated-trasnformer (encoder-decoder-stacks)"](https://nlp.seas.harvard.edu/annotated-transformer/#encoder-and-decoder-stacks)
+8. TBD
+9. [Answer](https://ai.stackexchange.com/a/25149/51861) on stack-exchange
