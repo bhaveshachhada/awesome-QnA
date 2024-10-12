@@ -6,6 +6,7 @@ Transformers, the powerful architecture behind models like GPT and BERT, can be 
 
 ## 1. **How do Transformers solve the problem of long sequences, compared to RNNs?**
 Transformers solve the long sequence problem by using **self-attention**, which allows direct connections between all tokens in a sequence. Unlike RNNs, which need to process sequences token-by-token, Transformers can process the entire sequence in **parallel**. This eliminates the vanishing gradient issues and allows **global context** to be captured more effectively, even for long sequences.
+<br>see [this](https://ai.stackexchange.com/a/20084/51861) answer on stack exchange
 
 ---
 
