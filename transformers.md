@@ -15,7 +15,7 @@ The Key, Query, and Value vectors are calculated by applying **learnable linear 
 ---
 
 ## 3. **Are these weight matrices learnable? How do linear transformations learn?**
-Yes, the weight matrices for the Key, Query, and Value vectors are **learnable parameters**. These matrices are optimized during training using **backpropagation**, like any neural network. Linear transformations in deep learning "learn" by adjusting their weights to minimize the loss function, ensuring that the model captures meaningful relationships between the input tokens.
+Yes, the weight matrices for the Key, Query, and Value vectors are **learnable parameters**. These matrices are optimized during training using **backpropagation**, like any neural network. Linear transformations in deep learning "learn" by adjusting their weights to minimize the loss function, ensuring that the model captures meaningful relationships between the input tokens. <sup>[6]</sup>
 
 ---
 
@@ -85,3 +85,4 @@ by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-uns
 3. Devlin et al., NAACL 2019 ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805)
 4. [Answer](https://ai.stackexchange.com/q/20075/51861) on stack-exchange
 5. [Answer](https://stats.stackexchange.com/a/463320/333903) on stack-exchange
+6. [Answer](https://stats.stackexchange.com/a/626483/333903) on stack-exchange
