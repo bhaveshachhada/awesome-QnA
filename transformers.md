@@ -10,7 +10,7 @@ Transformers solve the long sequence problem by using **self-attention**, which 
 ---
 
 ## 2. **How are Key, Query, and Value vectors calculated for each word embedding?**
-The Key, Query, and Value vectors are calculated by applying **learnable linear transformations** to each word embedding. For each word (represented as a vector of dimension `d_model`), we apply a linear transformation using weight matrices \( W_Q \), \( W_K \), and \( W_V \) to get the query, key, and value vectors, respectively. These transformations project the embedding to different subspaces that the attention mechanism uses. <sup<5]</sup>
+The Key, Query, and Value vectors are calculated by applying **learnable linear transformations** to each word embedding. For each word (represented as a vector of dimension `d_model`), we apply a linear transformation using weight matrices \( W_Q \), \( W_K \), and \( W_V \) to get the query, key, and value vectors, respectively. These transformations project the embedding to different subspaces that the attention mechanism uses. <sup>[5]</sup>
 
 ---
 
