@@ -1,12 +1,11 @@
 # Demystifying Transformers: Answering Common Doubts
 
-Transformers, the powerful architecture behind models like GPT and BERT, can be quite challenging to understand in depth. As I was learning about Transformers and the "Attention Is All You Need" paper, I encountered several doubts. This post compiles those questions and answers for others who may be facing similar challenges.
+Transformers, the powerful architecture behind models like GPT<sup>[2]</sup> and BERT<sup>[3]</sup>, can be quite challenging to understand in depth. As I was learning about Transformers and the "Attention Is All You Need" paper<sup>[1]</sup>, I encountered several doubts. This post compiles those questions and answers for others who may be facing similar challenges.
 
 ---
 
 ## 1. **How do Transformers solve the problem of long sequences, compared to RNNs?**
-Transformers solve the long sequence problem by using **self-attention**, which allows direct connections between all tokens in a sequence. Unlike RNNs, which need to process sequences token-by-token, Transformers can process the entire sequence in **parallel**. This eliminates the vanishing gradient issues and allows **global context** to be captured more effectively, even for long sequences.
-<br>see [this](https://ai.stackexchange.com/a/20084/51861) answer on stack exchange
+Transformers solve the long sequence problem by using **self-attention**, which allows direct connections between all tokens in a sequence. Unlike RNNs, which need to process sequences token-by-token, Transformers can process the entire sequence in **parallel**. This eliminates the vanishing gradient issues and allows **global context** to be captured more effectively, even for long sequences. <sup>[4]</sup>
 
 ---
 
@@ -80,4 +79,8 @@ Feel free to reach out or contribute to the discussion if you have more question
 ---
 
 ### References:
-- Vaswani et al. (2017). ["Attention is All You Need"](https://arxiv.org/abs/1706.03762)
+1. Vaswani et al. (2017). ["Attention is All You Need"](https://arxiv.org/abs/1706.03762)
+2. Radford et al. (2018). ["Improving Language Understanding
+by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+3. Devlin et al., NAACL 2019 ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805)
+4. [Answer](https://ai.stackexchange.com/q/20075/51861) on stack-exchange
