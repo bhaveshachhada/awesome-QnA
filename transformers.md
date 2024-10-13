@@ -40,7 +40,7 @@ While increasing the number of attention heads helps capture diverse features in
 ---
 
 ## 8. **What’s the purpose of positional encoding?**
-Transformers process sequences in parallel, so they need a way to encode the **order** of the tokens in the sequence. Positional encodings introduce this ordering by adding a **position-dependent signal** to each word embedding. This allows the model to know, for example, that the first word comes before the second one, and so on.
+Transformers process sequences in parallel, so they need a way to encode the **order** of the tokens in the sequence. Positional encodings introduce this ordering by adding a **position-dependent signal** to each word embedding. This allows the model to know, for example, that the first word comes before the second one, and so on. <sup>[11]</sup>
 
 ---
 
@@ -90,3 +90,4 @@ by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-uns
 8. [Answer](https://ai.stackexchange.com/a/26840/51861) on stack-exchange
 9. [Answer](https://ai.stackexchange.com/a/25149/51861) on stack-exchange
 10. [Answer](https://ai.stackexchange.com/a/46984/51861) on stack-exchange
+11. [Answer](https://ai.stackexchange.com/a/46984/51861) on stack-exchange
