@@ -25,7 +25,7 @@ Yes, it's essentially a linear layer. If the embedding dimension is 512 and the 
 ---
 
 ## 5. **Why do we need multiple attention heads?**
-Multiple heads in **multi-head attention** allow the model to capture **different types of relationships** between words. Each attention head can focus on different aspects of the sequence—one might focus on **syntactic structure**, while another might capture **semantic relations**. This gives the model a more nuanced understanding of the input by looking at it from different perspectives simultaneously.
+Multiple heads in **multi-head attention** allow the model to capture **different types of relationships** between words. Each attention head can focus on different aspects of the sequence—one might focus on **syntactic structure**, while another might capture **semantic relations**. This gives the model a more nuanced understanding of the input by looking at it from different perspectives simultaneously. <sup>[8]</sup>
 
 ---
 
@@ -87,5 +87,5 @@ by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-uns
 5. [Answer](https://stats.stackexchange.com/a/463320/333903) on stack-exchange
 6. [Answer](https://stats.stackexchange.com/a/626483/333903) on stack-exchange
 7. ["Annotated-trasnformer (encoder-decoder-stacks)"](https://nlp.seas.harvard.edu/annotated-transformer/#encoder-and-decoder-stacks)
-8. TBD
+8. [Answer](https://ai.stackexchange.com/a/26840/51861) on stack-exchange
 9. [Answer](https://ai.stackexchange.com/a/25149/51861) on stack-exchange
