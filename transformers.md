@@ -45,7 +45,7 @@ Transformers process sequences in parallel, so they need a way to encode the **o
 ---
 
 ## 9. **Why use sine-cosine for positional encoding instead of simple integers?**
-Sine and cosine functions are continuous and allow the model to generalize to **sequences longer than those seen during training**. Unlike simple integers, sine and cosine provide a smooth representation of positions, making it easier for the model to **interpolate** between positions. They also create unique positional encodings for each dimension, which helps with capturing complex positional relationships.
+Sine and cosine functions are continuous and allow the model to generalize to **sequences longer than those seen during training**. Unlike simple integers, sine and cosine provide a smooth representation of positions, making it easier for the model to **interpolate** between positions. They also create unique positional encodings for each dimension, which helps with capturing complex positional relationships. <sup>[12]</sup>
 
 ---
 
@@ -91,3 +91,4 @@ by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-uns
 9. [Answer](https://ai.stackexchange.com/a/25149/51861) on stack-exchange
 10. [Answer](https://ai.stackexchange.com/a/46984/51861) on stack-exchange
 11. [Answer](https://ai.stackexchange.com/a/46984/51861) on stack-exchange
+12. See [this](https://youtu.be/dichIcUZfOw?t=278&si=B6flaMbUjoq-46wL) youtube lecture by [HeduAI](https://www.youtube.com/@HeduAI)
