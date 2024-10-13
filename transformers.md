@@ -35,7 +35,7 @@ This is an interesting question! While multiple heads could theoretically conver
 ---
 
 ## 7. **Why not increase the number of heads instead of stacking attention layers?**
-While increasing the number of attention heads helps capture diverse features in **parallel**, stacking multiple layers allows for a **hierarchical representation** of the input. Each layer refines and builds upon the previous layer’s representation, enabling deeper understanding. Think of it like deep neural networks: deeper models can capture more complex patterns than shallow models with wide layers.
+While increasing the number of attention heads helps capture diverse features in **parallel**, stacking multiple layers allows for a **hierarchical representation** of the input. Each layer refines and builds upon the previous layer’s representation, enabling deeper understanding. Think of it like deep neural networks: deeper models can capture more complex patterns than shallow models with wide layers. <sup>[10]</sup>
 
 ---
 
@@ -89,3 +89,4 @@ by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-uns
 7. ["Annotated-trasnformer (encoder-decoder-stacks)"](https://nlp.seas.harvard.edu/annotated-transformer/#encoder-and-decoder-stacks)
 8. [Answer](https://ai.stackexchange.com/a/26840/51861) on stack-exchange
 9. [Answer](https://ai.stackexchange.com/a/25149/51861) on stack-exchange
+10. [Answer](https://ai.stackexchange.com/a/46984/51861) on stack-exchange
