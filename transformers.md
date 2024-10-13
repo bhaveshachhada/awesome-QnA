@@ -50,7 +50,7 @@ Sine and cosine functions are continuous and allow the model to generalize to **
 ---
 
 ## 10. **Can the number of encoders and decoders be different in a Transformer?**
-Yes, the number of encoder and decoder layers in a Transformer doesn’t have to be the same. In the original Transformer architecture, both the encoder and decoder typically have the same number of layers (e.g., 6 each), but this is a design choice and can be adjusted based on the task or resource constraints.
+Yes, the number of encoder and decoder layers in a Transformer doesn’t have to be the same. In the original Transformer architecture, both the encoder and decoder typically have the same number of layers (e.g., 6 each), but this is a design choice and can be adjusted based on the task or resource constraints. <sup>[13]</sup>
 
 ---
 
@@ -92,3 +92,4 @@ by Generative Pre-Training"](https://cdn.openai.com/research-covers/language-uns
 10. [Answer](https://ai.stackexchange.com/a/46984/51861) on stack-exchange
 11. [Answer](https://ai.stackexchange.com/a/46984/51861) on stack-exchange
 12. See [this](https://youtu.be/dichIcUZfOw?t=278&si=B6flaMbUjoq-46wL) youtube lecture by [HeduAI](https://www.youtube.com/@HeduAI)
+13. [Answer](https://datascience.stackexchange.com/a/124797/131794) on stack-exchange
